@@ -46,7 +46,6 @@
 			if(updateArray == null) {
 				for(var i in list) {
 					list[i].numGames = list[i].getNumGames();
-					return;
 				}
 			}
 			else {
